@@ -1,0 +1,57 @@
+/** {font-size: 100%;}*/
+
+.ratios-title {
+	font-size: 150%;
+	font-family: helvetica;
+}
+
+.ratio-table {
+	width: 100%;
+	height: 100%;
+}
+
+.table {display: table;}
+
+.table-center {
+	margin: 0 auto;
+}
+
+.ratio-tables * {
+	font-size: 120%;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+}
+
+.cell-middle {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ratio-row {
+	display: table-row;
+}
+
+.ratio-cell {
+	display: table-cell;
+	padding: 10px;
+}
+
+.ratio-cell input {
+	width: 100%;
+	text-align: center;
+}
+
+.ratio-equals {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ratio-equal {
+	float: left;
+}

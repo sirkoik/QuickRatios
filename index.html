@@ -1,0 +1,69 @@
+<html>
+<head>
+	<script
+			  src="https://code.jquery.com/jquery-3.0.0.min.js"
+			  integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+			  crossorigin="anonymous"></script>
+
+	<script
+			  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+			  integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
+			  crossorigin="anonymous"></script>
+
+	<script src="script.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/sunny/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Quick Ratios</title>
+</head>
+
+<body>
+<div class="table ratio-table">
+<div class="row">
+<div class="cell cell-middle">
+	<div class="ratios-title">
+		Quick ratios
+	</div>
+ 	<div class="table table-center ratio-tables">
+		<div class="ratio-row">
+			<div class="ratio-cell" id="ratio-left">
+				<input type="text" class="ratio" id="field0"><br/>
+				<hr>
+				<input type="text" class="ratio" id="field1">
+			</div>
+
+			<div class="ratio-cell ratio-equals">
+			=
+			</div>
+
+			<div class="ratio-cell" id="ratio-right">
+				<input type="text" class="ratio" id="field2"><br/>
+				<hr>
+				<input type="text" class="ratio" id="field3">
+			</div>
+		</div>
+	</div>
+	<div class="table table-center">
+		<div class="row">
+			<div class="cell">
+				<input type="button" id="calc" value="calc">
+				<input type="button" id="clear-fields" value="clear">
+
+				<input type="checkbox" name="auto-calc" id="auto-calc" checked/><label for="auto-calc">auto</label>
+				<input type="button" id="help" value="?">
+			</div>
+		</div>
+	</div>
+
+ </div>
+</div>
+</div>
+
+<div id="help-dialog" title="Help">
+	<p>To calculate ratios, first enter numbers in any of the three text entry fields. You can also increase or decrease each number by clicking the arrows to the right of the text entry field. The fourth number will automatically be calculated.</p>
+	<p>To disable automatic calculation, unset the "auto" button.</p>
+</div>
+
+</body>
+</html>
