@@ -55,3 +55,20 @@
 .ratio-equal {
 	float: left;
 }
+
+
+.footer {
+    position: fixed;
+    right: 10;
+    bottom: 10;
+    text-align: right;
+    
+    padding: 10px;
+    
+    font-size: 150%;
+    font-family: helvetica;    
+}
+
+.footer a {
+    color: #0074c7;
+}
